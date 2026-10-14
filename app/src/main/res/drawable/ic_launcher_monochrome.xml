@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shield outer shape with link cutouts -->
+    <path
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd"
+        android:pathData="M54,26 C66.5,26 75,30 75,30 C75,52.5 64,68.5 54,76 C44,68.5 33,52.5 33,30 C33,30 41.5,26 54,26 Z M43.5,42 C39.36,42 36,45.36 36,49.5 C36,53.64 39.36,57 43.5,57 L48,57 L48,54 L43.5,54 C41,54 39,52 39,49.5 C39,47 41,45 43.5,45 L48,45 L48,42 Z M64.5,42 L60,42 L60,45 L64.5,45 C67,45 69,47 69,49.5 C69,52 67,54 64.5,54 L60,54 L60,57 L64.5,57 C68.64,57 72,53.64 72,49.5 C72,45.36 68.64,42 64.5,42 Z M45,48 L63,48 L63,51 L45,51 Z"/>
+
+    <!-- Sparkle accent star -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M70,30 C70,33 71.5,34.5 74.5,34.5 C71.5,34.5 70,36 70,39 C70,36 68.5,34.5 65.5,34.5 C68.5,34.5 70,33 70,30 Z"/>
+
+</vector>
