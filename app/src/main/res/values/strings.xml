@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LinkScrub</string>
+    <string name="tile_label">Clean Clipboard</string>
+    <string name="process_text_clean">Clean link</string>
+    <string name="process_text_clean_and_shorten">Clean &amp; shorten</string>
+</resources>

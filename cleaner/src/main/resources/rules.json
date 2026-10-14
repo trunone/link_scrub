@@ -1,0 +1,35 @@
+{
+  "globalRules": {
+    "removeParams": [
+      "utm_*",
+      "fbclid",
+      "gclid",
+      "dclid",
+      "msclkid",
+      "igshid",
+      "igsh",
+      "mc_eid",
+      "mc_cid",
+      "_hsenc",
+      "_hsmi",
+      "ref_src",
+      "ref_url",
+      "si"
+    ]
+  },
+  "domainRules": [
+    {
+      "domains": ["x.com", "twitter.com"],
+      "removeParams": ["s"]
+    },
+    {
+      "domains": ["youtube.com", "www.youtube.com", "m.youtube.com", "youtu.be"],
+      "keepOnlyParams": ["v", "t", "list"]
+    },
+    {
+      "domains": ["amazon.com", "www.amazon.com", "amazon.co.uk", "amazon.de", "amazon.ca", "amazon.co.jp"],
+      "stripPathAfterPattern": "^(.*/dp/[A-Z0-9]{10})",
+      "removeAllParams": true
+    }
+  ]
+}
