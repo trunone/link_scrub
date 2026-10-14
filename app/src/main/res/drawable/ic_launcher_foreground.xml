@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shield background container -->
+    <path
+        android:pathData="M54,26 C66.5,26 75,30 75,30 C75,52.5 64,68.5 54,76 C44,68.5 33,52.5 33,30 C33,30 41.5,26 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="26"
+                android:endX="54"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF0D9488"/>
+                <item android:offset="1.0" android:color="#FF0F766E"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shield inner subtle accent / depth overlay -->
+    <path
+        android:pathData="M54,29 C64,29 71.5,32.5 71.5,32.5 C71.5,52 61.5,66 54,72.5 C46.5,66 36.5,52 36.5,32.5 C36.5,32.5 44,29 54,29 Z"
+        android:fillAlpha="0.25">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="29"
+                android:endX="54"
+                android:endY="72.5"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF2DD4BF"/>
+                <item android:offset="1.0" android:color="#FF0284C7"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Clean Link Chain Symbol in Center -->
+    <!-- Left chain link -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43.5,45 C41,45 39,47 39,49.5 C39,52 41,54 43.5,54 L48,54 L48,57 L43.5,57 C39.36,57 36,53.64 36,49.5 C36,45.36 39.36,42 43.5,42 L48,42 L48,45 L43.5,45 Z"/>
+
+    <!-- Right chain link -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64.5,42 C68.64,42 72,45.36 72,49.5 C72,53.64 68.64,57 64.5,57 L60,57 L60,54 L64.5,54 C67,54 69,52 69,49.5 C69,47 67,45 64.5,45 L60,45 L60,42 L64.5,42 Z"/>
+
+    <!-- Center connecting bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,48 h18 v3 h-18 z"/>
+
+    <!-- Sparkle / Scrub Clean accent star (4-point star at top right) -->
+    <path
+        android:fillColor="#F0FDFA"
+        android:pathData="M70,30 C70,33 71.5,34.5 74.5,34.5 C71.5,34.5 70,36 70,39 C70,36 68.5,34.5 65.5,34.5 C68.5,34.5 70,33 70,30 Z"/>
+
+    <!-- Smaller secondary sparkle -->
+    <path
+        android:fillColor="#CCFBF1"
+        android:pathData="M37,35 C37,36.8 38,37.8 39.8,37.8 C38,37.8 37,38.8 37,40.6 C37,38.8 36,37.8 34.2,37.8 C36,37.8 37,36.8 37,35 Z"/>
+
+</vector>
